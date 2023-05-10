@@ -48,6 +48,7 @@ h2 {
 
 .button-attack {
     width: 200px;
+    height: 190px;
     border-radius: 20%;
     margin: 20px;
     padding: 30px;
@@ -56,6 +57,7 @@ h2 {
 @media (max-width: 768px) {
     .button-attack {
         width: 120px;
+        height: 110px;
     }
 }
 
