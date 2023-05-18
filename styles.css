@@ -33,6 +33,7 @@ h2 {
 
 .text-message {
     font-size: 20px;
+    margin: 1.5rem 0;
 }
 
 @media (min-width: 768px) {
@@ -41,8 +42,10 @@ h2 {
     }
 }
 
-.img-battle{
-    width: 6rem;
+.img-battle-player,
+.img-battle-pc {
+    width: 5rem;
+    height: 4rem;
 }
 
 .buttons {
@@ -61,8 +64,10 @@ h2 {
         row-gap: 0.5rem;
     }
 
-    .img-battle{
+    .img-battle-player,
+    .img-battle-pc {
         width: 10rem;
+        height: 9rem;
     }
 }
 
@@ -73,7 +78,7 @@ h2 {
     border-radius: 35%;
     border: 0.5rem solid rgb(37, 37, 176);
     margin: 0.5rem;
-    background-color: rgb(194, 4, 4);
+    background-color: rgb(140, 0, 0);
 }
 
 @media (min-width: 768px) {
